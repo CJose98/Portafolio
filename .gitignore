@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # ARCHIVOS IGNORADOS PARA GIT
-code
+code.md
