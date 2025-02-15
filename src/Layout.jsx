@@ -4,14 +4,13 @@ import { Menu } from "./componentes/Menu"
 export const Layout = () => {
 
     return (
-        <div class="container">
-            <div class="grid">
+        <div class="is-flex" style={{ minHeight: "100vh" }} >
+           {/* Menú (columna izquierda) */}
                 <Menu />
-                <main>
-                    <Outlet /> {/* Aquí se renderizan las rutas anidadas */}
-                </main>
-            </div>
+            {/* Contenido principal (columna derecha) */}
+            <main className="is-flex-grow-1 ml-3">
+                <Outlet /> {/* Aquí se renderizan las rutas anidadas */}
+            </main>
         </div>
-
     )
 }
