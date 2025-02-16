@@ -7,8 +7,7 @@ export const Menu = () => {
             <figure class="image is-128x128 mt-2">
                 <img class="is-rounded" src="https://bulma.io/assets/images/placeholders/128x128.png" />
             </figure>
-            <h4 class="title is-5 mt-2">JOSE COLQUE</h4>
-            <div class="has-text-centered">
+            <div class="has-text-centered mt-4">
                 <aside class="menu">
                     <p class="menu-label">HOME</p>
                     <p class="menu-label">ABOUT ME</p>

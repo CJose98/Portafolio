@@ -1,0 +1,40 @@
+/* Style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/home.jpg'); /* Ruta a la imagen en public */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    z-index: -1; /* Coloca la imagen detrás de todo */
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+}
+
+
+
+.custom-font {
+    font-family: 'Playfair Display';
+    font-size: 9rem; /* Tamaño personalizado */
+    font-weight: 700; /* Grosor de la fuente */
+    word-spacing: 2.5rem; /* Ajusta este valor para obtener 3 espacios */
+}
+
+.custom-subtitle {
+    font-family: 'Montserrat';
+    font-size: 2rem; /* Tamaño personalizado */
+    font-weight: 400; /* Grosor de la fuente */
+}

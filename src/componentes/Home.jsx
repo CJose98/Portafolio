@@ -1,24 +1,15 @@
 import React from "react"
-
+import '../css/Style.css'
 export const Home = () => {
     return (
-        <div class='has-background-black-ter is-flex is-align-items-center is-justify-content-center' style={{ minHeight: "100vh" }}>
-            <div class="container ml-6" >
-                <div class='columns is-vcentered'>
-                    {/* Columna de texto */}
-                    <div class='column is-half'>
-                        <h4 class="title is-5">Hello, I am</h4>
-                        <h1 class="title">Jose Colque</h1>
-                        <h5 class="title is-5">I'm a Passionate Developer</h5>
-                        <p className="subtitle is-5 has-text-grey-light">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
-                    </div>
-                    {/* Columna de imagen */}
-                    <div class='column is-half'>
-                        <figure class="image is-128x128">
-                            <img class="is-rounded" src="https://bulma.io/assets/images/placeholders/360x640.png" />
-                        </figure>
-                    </div>
-                </div>
+        <div class='is-flex is-align-items-center is-justify-content-center' style={{ minHeight: "100vh", position: "relative" }}>
+            {/* Contenedor para la imagen de fondo */}
+            <div className="background-container"></div>
+            {/* Contenedor para el contenido */}
+            <div className="is-flex is-flex-direction-column is-align-items-center">
+                <h1 class="title custom-font">JOSÉ COLQUE</h1>
+                <h2 class="title custom-subtitle">TECNICO&nbsp;&nbsp;&nbsp;EN&nbsp;&nbsp;&nbsp;DESARROLLO&nbsp;&nbsp;&nbsp;DE&nbsp;&nbsp;&nbsp;SOFTWARE,&nbsp;&nbsp;&nbsp;FULL&nbsp;&nbsp;&nbsp;STACK</h2>
+                <h2 class="title custom-subtitle">Desarrollador Junior</h2>
             </div>
         </div>
     )
