@@ -19,22 +19,26 @@ body, html {
     z-index: -1; /* Coloca la imagen detrás de todo */
 }
 
-.content {
-    position: relative;
-    z-index: 1; /* Asegura que el contenido esté por encima del fondo */
-}
-
-
-
-.custom-font {
-    font-family: 'Playfair Display';
+h1 {
+    font-family: 'Roboto Slab', serif; /* Fuente para h1 */
     font-size: 9rem; /* Tamaño personalizado */
     font-weight: 700; /* Grosor de la fuente */
     word-spacing: 2.5rem; /* Ajusta este valor para obtener 3 espacios */
+    margin: 0; /* Elimina márgenes predeterminados */
+    color:#fff;
+
 }
 
-.custom-subtitle {
-    font-family: 'Montserrat';
+h2 {
+    font-family: 'Roboto', sans-serif; /* Fuente para h2 */
     font-size: 2rem; /* Tamaño personalizado */
     font-weight: 400; /* Grosor de la fuente */
+    margin: 0; /* Elimina márgenes predeterminados */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Fuente para p */
+    font-size: 2rem; /* Tamaño personalizado */
+    font-weight: 400; /* Grosor de la fuente */
+    margin: 0; /* Elimina márgenes predeterminados */
 }

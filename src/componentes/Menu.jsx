@@ -1,12 +1,13 @@
-
+import { Animacion } from "../css/bits-and-bytes-css-animation/Animacion"
 
 export const Menu = () => {
 
     return (
-        <div class='has-background-dark is-flex is-flex-direction-column is-align-items-center' style={{ height: "100vh", width: "200px"}}>
-            <figure class="image is-128x128 mt-2">
-                <img class="is-rounded" src="https://bulma.io/assets/images/placeholders/128x128.png" />
-            </figure>
+        <div class='has-background-dark is-flex is-flex-direction-column is-align-items-center m-3'
+            style={{ width: "250px", 'border-radius': 10 }}>
+            <div>
+                <Animacion/>
+            </div>
             <div class="has-text-centered mt-4">
                 <aside class="menu">
                     <p class="menu-label">HOME</p>

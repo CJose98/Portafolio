@@ -8,7 +8,7 @@ export const Layout = () => {
            {/* Menú (columna izquierda) */}
                 <Menu />
             {/* Contenido principal (columna derecha) */}
-            <main className="is-flex-grow-1 ml-3">
+            <main className="is-flex-grow-1">
                 <Outlet /> {/* Aquí se renderizan las rutas anidadas */}
             </main>
         </div>
