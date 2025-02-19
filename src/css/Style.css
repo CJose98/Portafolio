@@ -3,8 +3,11 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/ /* Elimina el scroll vertical (sin deslizamineto)*/
+    overflow-x: hidden; /* Oculta el scroll horizontal */
+    overflow-y: auto; /* Permite el scroll vertical si es necesario */
 }
+
 
 .background-container {
     position: absolute;
@@ -41,4 +44,10 @@ p {
     font-size: 2rem; /* Tamaño personalizado */
     font-weight: 400; /* Grosor de la fuente */
     margin: 0; /* Elimina márgenes predeterminados */
+}
+
+/* Estilos para la sección "About Me" */
+#about-me-section {
+    position: relative; /* Asegúrate de que esté en el flujo normal */
+    z-index: 1; /* Asegúrate de que esté por encima del fondo */
 }
