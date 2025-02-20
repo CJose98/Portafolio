@@ -6,8 +6,8 @@ export const Home = () => {
     return (
         <div>
             {/* Contenedor principal */}
-            <div class='is-flex is-flex-direction-column is-align-items-center is-justify-content-center'
-                style={{ minHeight: "100vh", position: "relative" }} >
+            <div class='is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-2'
+                style={{background: 'radial-gradient(burlywood, black)', minHeight: "100vh", position: "relative", 'border-radius': 10, border: '1px solid white' }} >
 
                 {/* Contenedor para la imagen de fondo */}
                 <div className="background-container "></div>
