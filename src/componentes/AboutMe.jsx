@@ -18,7 +18,7 @@ export const AboutMe = () => {
         {
             title: "Tecnicatura en Desarrollo de Software",
             subtitle: "Universidad UPATECO",
-            duration: "2022 - 2024 (finalizado)",
+            duration: "2022 - 2025 (finalizado)",
         },
         {
             title: "Tecnicatura en Programación",
@@ -45,7 +45,7 @@ export const AboutMe = () => {
             duration: "2023 (finalizado)",
         },
         {
-            title: "Introducción a la programación en JAVA",
+            title: "Introducción a la programación en Java",
             subtitle: "Universidad Nacional de Salta",
             duration: "2022 (finalizado)",
         },
@@ -53,6 +53,7 @@ export const AboutMe = () => {
 
     return (
         <div className="about-me-container">
+            <div class='imagen'></div>
             {/* Sección de estudios superiores */}
             <h2 className="section-title">ESTUDIOS SUPERIORES</h2>
             <div className="columns is-desktop ml-3 mr-3 mt-1">

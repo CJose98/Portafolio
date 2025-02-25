@@ -16,38 +16,80 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(black, deepskyblue);
+    /*background: radial-gradient(black, deepskyblue);*/
     min-height: 100vh;
     border-radius: 10px;
     border: 1px solid white;
     margin: 0.5rem;
     position: relative;
+    z-index: 1;
 }
+
+/*imagen*/
+.imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/office.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+/*iconos*/
+.iconos-link {
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50px, 50px));
+    gap: 40px;
+}
+.iconos-link #ic1{
+    padding: 2px;
+    border-radius: 23px;
+    background-color: rgb(226, 217, 217);/* Fondo blanco con 70% de opacidad */
+    display: inline-block;/* Para que el fondo solo ocupe el ancho del texto */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.iconos-link #ic1:hover{
+    background-color: rgb(247, 247, 247);/* Fondo blanco con 70% de opacidad */
+    padding: 4px;
+    grid-template-columns: repeat(2, minmax(80px, 80px));
+}
+
 
 /* Contenido de Home */
 .home-content {
     text-align: center;
     color: white;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
 }
 
 /* Estilos para el menú */
 .menu-container {
     position: fixed;
     height: 98vh;
-    background: radial-gradient(deepskyblue,black);
+    background: radial-gradient(gray, black);
     width: 240px;
     border-radius: 10px;
     border: 1px solid white;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     overflow-y: auto;
 }
 
 .menu-content {
     text-align: center;
-    margin-top: 1rem;
 }
 
 .menu-label {
@@ -64,7 +106,8 @@ html {
 
 .main-content {
     flex-grow: 1;
-    margin-left: 250px; /* Ajusta este valor según el ancho del menú */
+    margin-left: 250px;
+    /* Ajusta este valor según el ancho del menú */
 }
 
 /* Animación de glow para h1 */
@@ -82,6 +125,7 @@ h1 {
     from {
         text-shadow: 0 0 20px #060606;
     }
+
     to {
         text-shadow: 0 0 30px #5b6262, 0 0 10px #bac5c6;
     }
@@ -90,6 +134,11 @@ h1 {
 h2 {
     font-size: 2rem;
     margin: 0;
+    background-color: rgba(14, 13, 13, 0.775); /*Fondo blanco con 70% de opacidad */
+    padding: 10px;/* Añade un poco de padding para que el fondo se vea mejor */
+    display: inline-block;/* Para que el fondo solo ocupe el ancho del texto */
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
 }
 
 /* Estilos para la sección "About Me" */
@@ -105,12 +154,13 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(black, deepskyblue);
+    /*background: radial-gradient(black, deepskyblue);*/
     min-height: 100vh;
     border-radius: 10px;
     border: 1px solid white;
     padding: 1rem;
     color: white;
+    z-index: 1;
 }
 
 /* Títulos de sección */
@@ -123,7 +173,7 @@ h2 {
 
 /* Bloques de información (estudios y cursos) */
 .info-block {
-    background-color: rgba(43, 42, 42, 0.68);
+    background-color: rgba(43, 42, 42, 0.859);
     border-radius: 10px;
     border: 1px solid white;
     padding: 1rem;
@@ -153,12 +203,14 @@ h2 {
 .columns.is-desktop {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem; /* Espacio entre columnas */
+    gap: 1rem;
+    /* Espacio entre columnas */
 }
 
 .column {
     flex: 1;
-    min-width: 250px; /* Ancho mínimo para responsividad */
+    min-width: 250px;
+    /* Ancho mínimo para responsividad */
 }
 
 /* Estilos para márgenes y padding */
@@ -185,5 +237,45 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Para que esté detrás del contenido */
+    z-index: -1;
+    /* Para que esté detrás del contenido */
+}
+
+
+/* Contenedor principal de Skills */
+.about-me-container-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    /*background: radial-gradient(black, deepskyblue);*/
+    min-height: 100vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 1rem;
+    color: white;
+    z-index: 1;
+}
+
+
+/*iconos-skills*/
+.iconos-skills {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(80px, 80px));
+    gap: 50px;
+}
+.iconos-skills #ic1{
+    padding: 5px;
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);/* Fondo blanco con 70% de opacidad */
+    display: inline-block;/* Para que el fondo solo ocupe el ancho del texto */
+    transition: color 0.3s ease;
+
+}
+.iconos-skills #ic1:hover{
+    background-color: rgba(223, 214, 214, 0.757);/* Fondo blanco con 70% de opacidad */
+    padding: 2px;
 }
