@@ -1,7 +1,7 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/Linkedin" alt="Project Banner">
+    <a href="https://www.linkedin.com/in/jose-colque-8333361a1/" target="_blank">
+      <img src="https://github.com/Cjose98/Portafolio/assets/Linkedin" alt="Project Banner">
     </a>
   <br />
 
