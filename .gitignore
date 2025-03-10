@@ -23,5 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
-# ARCHIVOS IGNORADOS PARA GIT
+.env
+
+# vscode
+.vscode
+
+# ARCHIVOS IMPORTANTE IGNORADO PARA GIT
 code.md
