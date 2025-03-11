@@ -1,7 +1,8 @@
 <div align="center">
   <br />
     <a href="https://www.linkedin.com/in/jose-colque-8333361a1/" target="_blank">
-      <img src="https://github.com/Cjose98/Portafolio/assets/Linkedin" alt="Project Banner">
+      <img src="./src/assets/Linkedin.png" 
+      alt="LinkedIn Profile">
     </a>
   <br />
 
