@@ -1,9 +1,9 @@
-![Captura de pantalla](./public/Linkedin.png)
+![Captura de pantalla](./public/img_Link.JPG)
 
 <div align="center">
   <br />
     <a href="https://www.linkedin.com/in/jose-colque-8333361a1/" target="_blank">
-      <img src="./public/Linkedin.png" 
+      <img src="./public/img_Link.JPG" 
       alt="LinkedIn Profile">
     </a>
   <br />
