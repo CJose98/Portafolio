@@ -128,19 +128,19 @@ const technologies = [
 // Datos para estudios superiores
 const estudiosSuperiores = [
   {
-    title: "Tecnicatura en Desarrollo de Software",
-    subtitle: "Universidad UPATECO",
-    duration: "2022 - 2025 (finalizado)",
+    title: "Tec. en Informática",
+    subtitle: "Terciario LA NORMAL",
+    duration: "2017 - 2019 (finalizado)",
   },
   {
-    title: "Tecnicatura en Programación",
+    title: "Tec. en Programación",
     subtitle: "Universidad UNSA",
     duration: "2020 - 2022 (-)",
   },
   {
-    title: "Tecnicatura Superior en Informática",
-    subtitle: "Terciario LA NORMAL",
-    duration: "2017 - 2019 (finalizado)",
+    title: "Tec. en Desarrollo de Software",
+    subtitle: "Universidad UPATECO",
+    duration: "2022 - 2025 (finalizado)",
   },
 ];
 
