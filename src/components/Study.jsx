@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { estudiosSuperiores } from "../constants";
+import { cursos } from "../constants";
 
 const StudyCard = ({
   index,
@@ -41,18 +42,41 @@ const StudyCard = ({
 
 const Study = () => {
   return (
+    <div>
+      <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+        <div
+          className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+        >
+          <motion.div variants={textVariant()}>
+            <p className={styles.sectionSubText}>Training</p>
+            <h2 className={styles.sectionHeadText}>higher education.</h2>
+          </motion.div>
+        </div>
+        <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`} >
+          {estudiosSuperiores.map((estudiosSuperior, index) => (
+            <StudyCard key={estudiosSuperior.title} index={index} {...estudiosSuperior} />
+          ))}
+        </div>
+      </div>
+      <Cursos/>
+    </div>
+  );
+};
+
+const Cursos = () => {
+  return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Training</p>
-          <h2 className={styles.sectionHeadText}>Studies.</h2>
+          <h2 className={styles.sectionHeadText}>courses.</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`} >
-        {estudiosSuperiores.map((estudiosSuperior, index) => (
-          <StudyCard key={estudiosSuperior.title} index={index} {...estudiosSuperior} />
+        {cursos.map((curso, index) => (
+          <StudyCard key={curso.title} index={index} {...curso} />
         ))}
       </div>
     </div>

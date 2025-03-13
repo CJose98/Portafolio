@@ -147,19 +147,19 @@ const estudiosSuperiores = [
 // Datos para cursos
 const cursos = [
   {
-    title: "Ciberseguridad",
-    subtitle: "Universidad UPATECO",
-    duration: "2024 (finalizado)",
+    title: "Programación con Java",
+    subtitle: "Universidad UNSA",
+    duration: "2022 (finalizado)",
   },
   {
-    title: "Introducción a la Programación",
+    title: "Programación con JavaScript",
     subtitle: "Argentina Programa",
     duration: "2023 (finalizado)",
   },
   {
-    title: "Introducción a la programación en Java",
-    subtitle: "Universidad Nacional de Salta",
-    duration: "2022 (finalizado)",
+    title: "Ciberseguridad",
+    subtitle: "Universidad UPATECO",
+    duration: "2024 (finalizado)",
   },
 ];
 
@@ -230,4 +230,4 @@ const projects = [
 ];
 
 
-export { services, estudiosSuperiores, technologies, projects};
+export { services, estudiosSuperiores, cursos, technologies, projects};
