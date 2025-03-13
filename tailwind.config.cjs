@@ -19,7 +19,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/StockCake-Holographic David Glows.jpg')",
+        "hero-pattern": "url('/src/assets/fondo.jpg')",
       },
     },
   },
@@ -30,6 +30,8 @@ module.exports = {
 #0643b4
 #fa00d4
 #fefefe
+
+#ce75e4
 
 
 HOLOGRAPHIC 3d shapes
