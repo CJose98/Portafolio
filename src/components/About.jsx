@@ -53,7 +53,7 @@ const About = () => {
         I'm proactive, committed, self-taught and I always like to give my best in everything,
         no matter how simple or complex the situation may become.
 
-        In February 2025 I graduated as a Software Development Technician
+        I graduated as a Software Development Technician
         at the UPATECO University of Salta. I am currently in
         continuous learning with courses, bootcamp or self-taught.
       </motion.p>

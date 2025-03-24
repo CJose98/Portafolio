@@ -82,6 +82,22 @@ const technologies = [
     icon: git,
   },
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "postman",
+    icon: postman,
+  },
+  {
+    name: "flask",
+    icon: flask,
+  },
+  {
     name: "figma",
     icon: figma,
   },
@@ -101,27 +117,7 @@ const technologies = [
     name: "boostrap",
     icon: boostrap,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "postman",
-    icon: postman,
-  },
-  {
-    name: "flask",
-    icon: flask,
-  },
-  
-  {
-    name: "linux",
-    icon: linux,
-  },
+
 ];
 
 
