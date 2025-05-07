@@ -171,7 +171,7 @@ const projects = [
       },
       {
         name: "npm",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "Node.js",
@@ -179,14 +179,14 @@ const projects = [
       },
       {
         name: "Bootstrap",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: servify,
     source_code_link: "https://github.com/TinchoARS/FrontServices",
   },
   {
-    name: "Job IT",
+    name: "Discor",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -207,25 +207,29 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Spotify",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that offers an intuitive user experience for managing and browsing songs, artists, genres, and albums..",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "npm",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bulma",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/CJose98/Song_react.git",
   },
 ];
 
