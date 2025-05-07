@@ -28,7 +28,7 @@ import tailwind from "./tech/tailwind.png";
 
 import servify from "./projec/Servify.png";
 import jobit from "./projec/jobit.png";
-import tripguide from "./projec/tripguide.png";
+import spotify from "./projec/spotify.png";
 
 export {
   logo_j,
@@ -57,5 +57,5 @@ export {
   tailwind,
   servify,
   jobit,
-  tripguide,
+  spotify,
 };

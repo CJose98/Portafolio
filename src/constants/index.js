@@ -19,7 +19,7 @@ import {
   docker,
   servify,
   jobit,
-  tripguide,
+  spotify,
 } from "../assets";
 
 export const navLinks = [
@@ -228,7 +228,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: spotify,
     source_code_link: "https://github.com/CJose98/Song_react.git",
   },
 ];
