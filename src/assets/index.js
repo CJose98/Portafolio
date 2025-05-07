@@ -26,7 +26,7 @@ import mysql from "./tech/mysql.png";
 import postman from "./tech/postman.png";
 import tailwind from "./tech/tailwind.png";
 
-import carrent from "./projec/carrent.png";
+import servify from "./projec/Servify.png";
 import jobit from "./projec/jobit.png";
 import tripguide from "./projec/tripguide.png";
 
@@ -55,7 +55,7 @@ export {
   nodejs,
   reactjs,
   tailwind,
-  carrent,
+  servify,
   jobit,
   tripguide,
 };

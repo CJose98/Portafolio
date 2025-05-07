@@ -17,7 +17,7 @@ import {
   git,
   figma,
   docker,
-  carrent,
+  servify,
   jobit,
   tripguide,
 } from "../assets";
@@ -161,25 +161,29 @@ const cursos = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Servify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform that allows users to search, book, and manage various services, providing a convenient and efficient solution to people's needs.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "npm",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: servify,
+    source_code_link: "https://github.com/TinchoARS/FrontServices",
   },
   {
     name: "Job IT",
