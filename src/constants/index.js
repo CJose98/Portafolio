@@ -20,6 +20,8 @@ import {
   servify,
   discord,
   spotify,
+  restaurante,
+  supermercado,
 } from "../assets";
 
 export const navLinks = [
@@ -166,16 +168,16 @@ const projects = [
       "A web-based platform that allows users to search, book, and manage various services, providing a convenient and efficient solution to people's needs.",
     tags: [
       {
-        name: "Python",
-        color: "pink-text-gradient",
+        name: "python",
+        color: "orange-text-gradient",
       },
       {
         name: "MySql",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "Django",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "react",
@@ -203,23 +205,23 @@ const projects = [
       "A web-based messaging application that allows for user registration and authentication, server and channel creation and management, and real-time chat communication.",
     tags: [
       {
-        name: "Python",
-        color: "pink-text-gradient",
+        name: "python",
+        color: "orange-text-gradient",
       },
       {
-        name: "Flask",
-        color: "pink-text-gradient",
+        name: "flask",
+        color: "orange-text-gradient",
       },
       {
-        name: "MySQL",
-        color: "pink-text-gradient",
+        name: "MySql",
+        color: "orange-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "javaScript",
         color: "green-text-gradient",
       },
       {
-        name: "Html",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -237,7 +239,7 @@ const projects = [
     tags: [
       {
         name: "API (Django)",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "react",
@@ -258,6 +260,50 @@ const projects = [
     ],
     image: spotify,
     source_code_link: "https://github.com/CJose98/Song_react.git",
+  },
+
+  {
+    name: "Restaurante",
+    description:
+      "Complete web application for a restaurant that includes a corporate presentation of the establishment, an interactive digital menu, a food sales system, and a responsive design.",
+    tags: [
+      {
+        name: "javaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: restaurante,
+    source_code_link: "https://github.com/CJose98/Pro_restaurante.git",
+  },
+  {
+    name: "Supermercado",
+    description:
+      "A platform that allows companies to monitor sales and product inventory, allowing customers to purchase online.",
+    tags: [
+      {
+        name: "java",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "uml",
+        color: "orange-text-gradient",
+      },
+
+    ],
+    image: supermercado,
+    source_code_link: "https://github.com/CJose98/Java_Supermercado.git",
   },
 ];
 

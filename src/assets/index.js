@@ -29,6 +29,8 @@ import tailwind from "./tech/tailwind.png";
 import servify from "./projec/Servify.png";
 import discord from "./projec/discord.png";
 import spotify from "./projec/spotify.png";
+import restaurante from "./projec/restaurante.png";
+import supermercado from "./projec/supermercado.jpg";
 
 export {
   logo_j,
@@ -58,4 +60,6 @@ export {
   servify,
   discord,
   spotify,
+  restaurante,
+  supermercado,
 };
