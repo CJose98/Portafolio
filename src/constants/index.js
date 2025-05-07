@@ -18,7 +18,7 @@ import {
   figma,
   docker,
   servify,
-  jobit,
+  discord,
   spotify,
 } from "../assets";
 
@@ -166,6 +166,18 @@ const projects = [
       "A web-based platform that allows users to search, book, and manage various services, providing a convenient and efficient solution to people's needs.",
     tags: [
       {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "pink-text-gradient",
+      },
+      {
         name: "react",
         color: "green-text-gradient",
       },
@@ -188,23 +200,35 @@ const projects = [
   {
     name: "Discor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web-based messaging application that allows for user registration and authentication, server and channel creation and management, and real-time chat communication.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Python",
+        color: "pink-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Flask",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Css",
+        color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: discord,
+    source_code_link: "https://github.com/CJose98/UI_web_app.git",
   },
   {
     name: "Spotify",
@@ -212,8 +236,12 @@ const projects = [
       "Web application that offers an intuitive user experience for managing and browsing songs, artists, genres, and albums..",
     tags: [
       {
+        name: "API (Django)",
+        color: "pink-text-gradient",
+      },
+      {
         name: "react",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "npm",
@@ -225,7 +253,7 @@ const projects = [
       },
       {
         name: "bulma",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: spotify,

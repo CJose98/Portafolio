@@ -27,7 +27,7 @@ import postman from "./tech/postman.png";
 import tailwind from "./tech/tailwind.png";
 
 import servify from "./projec/Servify.png";
-import jobit from "./projec/jobit.png";
+import discord from "./projec/discord.png";
 import spotify from "./projec/spotify.png";
 
 export {
@@ -56,6 +56,6 @@ export {
   reactjs,
   tailwind,
   servify,
-  jobit,
+  discord,
   spotify,
 };
