@@ -17,6 +17,7 @@ import {
   git,
   figma,
   docker,
+  django,
   servify,
   discord,
   spotify,
@@ -100,8 +101,8 @@ const technologies = [
     icon: flask,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "django",
+    icon: django,
   },
   {
     name: "HTML 5",

@@ -25,6 +25,7 @@ import linux from "./tech/linux.png";
 import mysql from "./tech/mysql.png";
 import postman from "./tech/postman.png";
 import tailwind from "./tech/tailwind.png";
+import django from "./tech/django.png";
 
 import servify from "./projec/Servify.png";
 import discord from "./projec/discord.png";
@@ -57,6 +58,7 @@ export {
   nodejs,
   reactjs,
   tailwind,
+  django,
   servify,
   discord,
   spotify,
