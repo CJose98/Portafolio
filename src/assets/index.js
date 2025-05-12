@@ -1,4 +1,4 @@
-import logo_j from "./logo_j.jpg";
+//import logo_j from "./logo_j.jpg";
 import github from "./github.png";
 
 import backend from "./3D/backend.png";
@@ -34,7 +34,7 @@ import restaurante from "./projec/restaurante.png";
 import supermercado from "./projec/supermercado.jpg";
 
 export {
-  logo_j,
+  //logo_j,
   backend,
   creator,
   mobile,
