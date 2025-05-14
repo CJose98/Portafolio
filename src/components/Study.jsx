@@ -1,11 +1,11 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React from 'react';
+import { motion } from 'framer-motion';
 
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
-import { estudiosSuperiores } from "../constants";
-import { cursos } from "../constants";
+import { styles } from '../styles';
+import { SectionWrapper } from '../hoc';
+import { fadeIn, textVariant } from '../utils/motion';
+import { estudiosSuperiores } from '../constants';
+import { cursos } from '../constants';
 
 const StudyCard = ({
   index,
@@ -14,7 +14,7 @@ const StudyCard = ({
   duration,
 }) => (
   <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
+    variants={fadeIn('', 'spring', index * 0.5, 0.75)}
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
   >
     <div className='mt-1'>
@@ -43,7 +43,7 @@ const StudyCard = ({
 const Study = () => {
   return (
     <div>
-      <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+      <div className={'mt-12 bg-black-100 rounded-[20px]'}>
         <div
           className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
         >
@@ -65,7 +65,7 @@ const Study = () => {
 
 const Cursos = () => {
   return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+    <div className={'mt-12 bg-black-100 rounded-[20px]'}>
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
@@ -83,4 +83,4 @@ const Cursos = () => {
   );
 };
 
-export default SectionWrapper(Study, "study");
+export default SectionWrapper(Study, 'study');

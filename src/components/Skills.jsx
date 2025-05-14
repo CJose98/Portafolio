@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
+import { BallCanvas } from './canvas';
+import { SectionWrapper } from '../hoc';
+import { technologies } from '../constants';
 
 const Skills = () => {
   return (
@@ -16,4 +16,4 @@ const Skills = () => {
   );
 };
 
-export default SectionWrapper(Skills, "skills");
+export default SectionWrapper(Skills, 'skills');

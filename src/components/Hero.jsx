@@ -1,11 +1,11 @@
-import { motion } from "framer-motion"; // Importa Framer Motion para animaciones
+import { motion } from 'framer-motion'; // Importa Framer Motion para animaciones
 
-import { styles } from "../styles";
+import { styles } from '../styles';
 
 const Hero = () => {
   return (
     // Sección principal del Hero
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={'relative w-full h-screen mx-auto'}>
       {/* Contenedor principal del contenido */}
       <div className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
 
@@ -39,7 +39,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className='w-3 h-3 rounded-full bg-secondary mb-1'
             />

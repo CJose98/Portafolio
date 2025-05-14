@@ -1,17 +1,17 @@
-import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+import React, { useRef, useState } from 'react';
+import { motion } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { styles } from '../styles';
+import { SectionWrapper } from '../hoc';
+import { slideIn } from '../utils/motion';
 
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
+    name: '',
+    email: '',
+    message: '',
   });
 
   const [loading, setLoading] = useState(false);
@@ -36,9 +36,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Jose",
+          to_name: 'Jose',
           from_email: form.email,
-          to_email: "colquejose53@gmail.com",
+          to_email: 'colquejose53@gmail.com',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -46,29 +46,29 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Gracias. Me pondré en contacto contigo lo antes posible.");
+          alert('Gracias. Me pondré en contacto contigo lo antes posible.');
 
           setForm({
-            name: "",
-            email: "",
-            message: "",
+            name: '',
+            email: '',
+            message: '',
           });
         },
         (error) => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, algo salió mal. Inténtalo de nuevo.");
+          alert('Ahh, algo salió mal. Inténtalo de nuevo.');
         }
       );
   };
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={'xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'}
     >
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+        variants={slideIn('left', 'tween', 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
@@ -117,7 +117,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-1 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
       </motion.div>
@@ -126,4 +126,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "contact");
+export default SectionWrapper(Contact, 'contact');
