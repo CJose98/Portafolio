@@ -1,5 +1,7 @@
 //import logo_j from "./logo_j.jpg";
 import github from './github.png';
+import linkedin from './linkedin.png';
+import cv from './cv.png';
 
 import backend from './3D/backend.png';
 import creator from './3D/creator.png';
@@ -40,6 +42,8 @@ export {
   mobile,
   web,
   github,
+  linkedin,
+  cv,
   menu,
   close,
   css,

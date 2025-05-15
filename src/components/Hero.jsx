@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'; // Importa Framer Motion para animaciones
 
 import { styles } from '../styles';
+import { contactWebsite } from '../constants'; // Importa los enlaces
 
 const Hero = () => {
   return (
@@ -21,10 +22,25 @@ const Hero = () => {
             Hi, I'm <span className='text-[#ce75e4]'>José</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white`}>
-          Software Developer <br className='sm:block hidden' />
+            Software Developer <br className='sm:block hidden' />
             {/*with a university base <br className='sm:block hidden' />*/}
           </p>
         </div>
+      </div>
+
+      {/*Contenedor de enlaces web*/}
+      <div className='absolute xs:bottom-40 bottom-32 w-full flex justify-center items-center mt-20 gap-3'>
+        {contactWebsite.map((link) => (
+          <a
+            key={link.id}
+            href={link.link}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='mx-4'
+          >
+            <img src={link.icon} alt={link.title} className='w-10 h-10' />
+          </a>
+        ))}
       </div>
 
       {/* Contenedor de la flecha animada en la parte inferior */}

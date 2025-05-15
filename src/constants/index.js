@@ -21,6 +21,9 @@ import {
   spotify,
   restaurante,
   supermercado,
+  linkedin,
+  cv,
+  github,
 } from '../assets';
 
 export const navLinks = [
@@ -44,6 +47,28 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
+];
+
+// Datos de contacto
+const contactWebsite = [
+  {
+    id: 'linkedin',
+    title: 'LinkedIn',
+    icon: linkedin,
+    link: 'https://www.linkedin.com/in/jose-colque-8333361a1/',
+  },
+  {
+    id: 'github',
+    title: 'GitHub',
+    icon: github,
+    link: 'https://github.com/CJose98'
+  },
+  {
+    id: 'cv',
+    title: 'CV',
+    icon: cv,
+    link: 'https://drive.google.com/file/d/1-ocrxeiSnBweoRi7CQg7ipw-WgyTDIls/view?usp=sharing',
+  }
 ];
 
 const services = [
@@ -307,4 +332,4 @@ const projects = [
 ];
 
 
-export { services, estudiosSuperiores, cursos, technologies, projects};
+export { contactWebsite, services, estudiosSuperiores, cursos, technologies, projects};
