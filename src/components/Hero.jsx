@@ -36,9 +36,9 @@ const Hero = () => {
             href={link.link}
             target='_blank'
             rel='noopener noreferrer'
-            className='mx-4'
+            className='mx-2'
           >
-            <img src={link.icon} alt={link.title} className='w-10 h-10' />
+            <img src={link.icon} alt={link.title} className='w-12 h-12' />
           </a>
         ))}
       </div>
